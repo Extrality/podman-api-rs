@@ -255,6 +255,9 @@ impl PodCreateOptsBuilder {
         network_options => "network_options"
     );
 
+    impl_map_field!(json
+        networks => "networks"
+    );
     // TODO: network
 
     impl_field!(
